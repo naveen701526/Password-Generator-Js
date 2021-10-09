@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -23,6 +24,7 @@ p {
 h2 {
 	margin: 10px 0 20px;
 	text-align: center;
+	font-family: 'Slabo 27px', serif;
 }
 
 input[type=checkbox] {
@@ -79,7 +81,10 @@ input[type=checkbox] {
 	display: block;
 	width: 100%;
 }
-
+.btn-large:hover{
+	background-color: #fa9ead;
+	color: #fa022c;
+}
 .setting {
 	display: flex;
 	justify-content: space-between;
